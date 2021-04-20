@@ -1,0 +1,127 @@
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 30px;
+}
+.botonAprender {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 10px;
+}
+form {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+.linea {
+  border: 1px solid black;
+  height: 2px;
+}
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.googleCard {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 24px;
+  border: 2px solid rgba(0, 0, 0, 0.521);
+  margin: 10px 0 10px 0;
+}
+.googleCard i {
+  margin-right: 5px;
+  color: #ea4335;
+}
+.seccion1 {
+  background-color: #343a40;
+}
+.seccion2 {
+  background-color: #58aaff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.seccion2 h1 {
+  font-size: 80px;
+}
+.seccion3 {
+  background-color: #0069d9;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.seccion3 h2 {
+  margin-bottom: 50px;
+}
+.seccion3 .azul {
+  box-shadow: 0 10px 1px #01d4ff;
+  height: 90px;
+  margin: 10px;
+}
+.seccion3 .verde {
+  box-shadow: 0 10px 1px #01ff5e;
+  height: 90px;
+  margin: 10px;
+}
+.seccion3 p {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.seccion3 p i {
+  color: #01d4ff;
+}
+.seccion3 .v i {
+  color: #01ff5e;
+}
+.seccion4 {
+  background-color: #74c686;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.userfeedback img {
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+  bottom: 150px;
+}
+.cardFeedback {
+  margin-left: 100px;
+  box-shadow: 0 -10px 1px yellow;
+  margin-top: 50px;
+}
+.seccion4 button i {
+  font-size: 80px;
+}
+.seccion5 {
+  background-color: #343a40;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.loginatras {
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  font-size: 50px;
+  color: #fff;
+}
+.loginatras:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.loginatras a:visited {
+  color: #fff;
+}
+.navbar .botonSesion {
+  border: 1px solid #fff;
+  box-shadow: none;
+  background: none;
+  padding: 2px;
+  border-radius: 3px;
+}
+.botonSesion:hover {
+  border: 1px solid #0b5ed7;
+  color: #0b5ed7;
+}

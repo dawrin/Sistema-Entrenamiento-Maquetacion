@@ -1,0 +1,84 @@
+.aside {
+  height: 1500px;
+}
+body {
+  background-color: #edf2f2;
+}
+.contenedor {
+  padding: 0 50px 0 50px;
+}
+.cardEnrolado {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 30px;
+  box-shadow: 4px 5px 6px #999;
+}
+.cardEnrolado p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #999;
+}
+.cardEnrolado:hover {
+  transform: scale(1.1);
+}
+.iconoCursos i {
+  font-size: 70px;
+  position: relative;
+  top: 10px;
+  color: #fff;
+}
+.cardEnrolado i {
+  font-size: 70px;
+  position: relative;
+  top: 15px;
+}
+.iconoGrande {
+  width: 100px;
+  min-width: 100px;
+  min-height: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.botonIngresar {
+  position: absolute;
+  left: 45%;
+  padding: 20px;
+  width: 50%;
+  bottom: 30%;
+}
+.aside a {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.aside a:visited {
+  color: #fff;
+}
+
+.cardCursos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 5px 6px #999;
+  border: 1px solid rgba(0, 0, 0, 0.63);
+  max-height: 280px;
+  margin: 30px 50px 30px 0;
+}
+.cardCursos:hover {
+  transform: scale(1.1);
+}
+.cardCursos p {
+  font-size: 20px;
+  font-weight: bold;
+  color: royalblue;
+}
+.cardCursos h5 {
+  font-size: 25px;
+}
+.iconoCursos {
+  width: 90px;
+  height: 90px;
+  min-width: 90px;
+  min-height: 90px;
+  border-radius: 50%;
+}
